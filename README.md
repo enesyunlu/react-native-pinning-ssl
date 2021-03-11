@@ -19,6 +19,11 @@ A react-native library for pinning SSL using SHA-1 public key.
 3. In XCode, in the project navigator, select your project. Add `libRNPinningSsl.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
+#### IOS podfile
+
+Open up `ios/Podfile`
+add `pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'`
+
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
